@@ -1,0 +1,11 @@
+C:\Users\siduck\Documents\C# projects\Program\bin\Debug\netcoreapp2.2\Program.deps.json
+C:\Users\siduck\Documents\C# projects\Program\bin\Debug\netcoreapp2.2\Program.runtimeconfig.json
+C:\Users\siduck\Documents\C# projects\Program\bin\Debug\netcoreapp2.2\Program.runtimeconfig.dev.json
+C:\Users\siduck\Documents\C# projects\Program\bin\Debug\netcoreapp2.2\Program.dll
+C:\Users\siduck\Documents\C# projects\Program\bin\Debug\netcoreapp2.2\Program.pdb
+C:\Users\siduck\Documents\C# projects\Program\obj\Debug\netcoreapp2.2\Program.csprojAssemblyReference.cache
+C:\Users\siduck\Documents\C# projects\Program\obj\Debug\netcoreapp2.2\Program.csproj.CoreCompileInputs.cache
+C:\Users\siduck\Documents\C# projects\Program\obj\Debug\netcoreapp2.2\Program.AssemblyInfoInputs.cache
+C:\Users\siduck\Documents\C# projects\Program\obj\Debug\netcoreapp2.2\Program.AssemblyInfo.cs
+C:\Users\siduck\Documents\C# projects\Program\obj\Debug\netcoreapp2.2\Program.dll
+C:\Users\siduck\Documents\C# projects\Program\obj\Debug\netcoreapp2.2\Program.pdb
