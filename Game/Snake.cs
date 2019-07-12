@@ -93,6 +93,12 @@ namespace snakeGame
                     input = ConsoleKey.RightArrow;
                 }
 
+                if(nextHead.X == Apple.AppleXPosition && nextHead.Y == Apple.AppleYPosition)
+                {
+                    Apple.ApplesEaten++;
+                    Apple.putAppleOnTheScreen();
+                }
+
                 //if it touches the wall
                 if(nextHead.X == 1 || nextHead.X == 70 || nextHead.Y == 1 || nextHead.Y == 40)
                 gameIsStillRunning = false;

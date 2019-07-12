@@ -8,14 +8,17 @@ public class Program
 {
     public static void Main(string [] args)
     {
+        Console.CursorVisible = false;
         Console.BackgroundColor = ConsoleColor.Green;
         Console.Clear();
-        Console.ForegroundColor = ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.Black;
 
         Wall.buildTheWall();
         
         List<Point> body = new List<Point>();
         Snake.createTheSnake(body);
+
+        Apple.putAppleOnTheScreen();
 
         Snake.startPlaying(body);
         
