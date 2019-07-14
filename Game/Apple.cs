@@ -1,5 +1,6 @@
 using System;
-
+using System.Drawing;
+using System.Collections.Generic;
 namespace snakeGame
 {
     class Apple
@@ -34,17 +35,32 @@ namespace snakeGame
             }
         }
         Apple apple = new Apple();
-        public static void putAppleOnTheScreen()
+        public static void putAppleOnTheScreen(List<Point> snakeBody)
         {
-            generateApple();
+            generateApple(snakeBody);
             Console.SetCursorPosition(appleXPosition , appleYPosition);
             Console.Write((char)64);
         }
-        static void generateApple()
+        static void generateApple(List<Point> snakeBody)
         {
             Random apple = new Random();
-            appleXPosition = apple.Next(2,68);
-            appleYPosition = apple.Next(2,38);
+            bool appleDoesntOverlapWithSnake = true;
+            do
+            {
+                appleXPosition = apple.Next(2,68);
+                appleYPosition = apple.Next(2,38);
+                foreach(Point point in snakeBody)
+                {
+                    if(point.X == appleXPosition && point.Y == AppleYPosition)
+                    {
+                        appleDoesntOverlapWithSnake = true;
+                        break;
+                    }
+                    else appleDoesntOverlapWithSnake = false;
+
+                }
+            }while(appleDoesntOverlapWithSnake);
+
         }
     }
 }
