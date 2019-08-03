@@ -12,7 +12,6 @@ namespace snakeGame
             Console.BackgroundColor = ConsoleColor.Green;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Black;
-            //Menu.startTheGame();
             
             Wall.buildTheWall();
         
